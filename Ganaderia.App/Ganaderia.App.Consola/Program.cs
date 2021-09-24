@@ -35,7 +35,6 @@ namespace Ganaderia.App.Consola
         private static void GetAllGanaderos()
         {
             var ganaderos = _repoGanadero.GetAllGanaderos();
-
             foreach(Ganadero item in ganaderos)
             {
                 Console.WriteLine(item.Nombres);
